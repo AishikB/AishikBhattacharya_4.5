@@ -26,6 +26,8 @@ module.exports.getDistance = function (userLatitude, userLongitude) {
             }
         })
         let selecteDriver = {};
+
+    console.log('nearbyDrivers::::',nearByDrivers)
     if(nearByDrivers.length > 0) {
         let maxTime = 0;
         
